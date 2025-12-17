@@ -1,0 +1,1 @@
+import{f as t,a}from"../chunks/DlDjf6Qx.js";import{S as n}from"../chunks/DWo8cMRI.js";import{j as m,k as f}from"../chunks/C8Ev96hZ.js";import{N as l}from"../chunks/WlWKnK2B.js";var v=t("<p>about this page - wip lol</p>"),d=t("<!> <!>",1);function $(i){var o=d(),r=m(o);l(r);var p=f(r,2);n(p,{children:(s,g)=>{var e=v();a(s,e)},$$slots:{default:!0}}),a(i,o)}export{$ as component};
