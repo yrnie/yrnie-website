@@ -1,14 +1,16 @@
 <script lang="ts">
-	import base from '$app/paths';
+	import { resolve } from '$app/paths';
+
+	const resolved = resolve('/');
 </script>
 
 <nav
 	class="sm:p-5px mx-auto flex items-center justify-between bg-neutral-900 font-mono font-thin text-white sm:text-2xl"
 >
 	<div class="justify-left block p-2">
-		<button class=""><a href="{base}/">Home</a></button>
-		<button class=""><a href="{base}/about">About</a></button>
-		<button class=""><a href="{base}/idk">IDK</a></button>
+		<button class=""><a href={resolved}>Home</a></button>
+		<button class=""><a href="{resolved}about">About</a></button>
+		<button class=""><a href="{resolved}idk">IDK</a></button>
 	</div>
 	<div class="flex items-center justify-end sm:p-2">
 		<a href="https://github.com/yrnie/" class="hidden pr-2 sm:flex">My Github</a><img
